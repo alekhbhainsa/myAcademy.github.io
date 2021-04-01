@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    title Alekh's Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul             
+            div#logo  
+                img(src="../static/img/logo1.png")
+                | ADC
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Conact Us]
+    section#introSection 
+        div Welcome to Alekh's Dance Academy 
+        div.small Eat Sleep Dance Repete
+    section#MissionSection  
+        h2 Our Mission
+        div.card
+          h3 Dnace Perfection 
+          div.card-box
+              div.card-img
+                  img(src="/static/img/updance1.png")
+              div.card-contant 
+                  p This is the best dance academy of the world
+        div.card
+          h3 Dance Way as you like
+          div.card-box
+            div.card-img
+                img(src="/static/img/simdanc2.png")
+            div.card-contant 
+                p This is the best dance academy of the world
+        div.card
+          h3 Expert Teaching
+          div.card-box
+            div.card-img
+             img(src="/static/img/fordupdanc3.png")
+            div.card-contant 
+                p This is the best dance academy of the world
+    section#SponsorSection
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="../static/img/logo12.png", alt="Sponsor Image", class="spimage")
+            img(src="../static/img/logo13.png", alt="Sponsor Image", class="spimage")
+            img(src="../static/img/logo14.png", alt="Sponsor Image", class="spimage")
+            img(src="../static/img/logo15.png", alt="Sponsor Image", class="spimage")
+    footer#footer 
+        | Copyright @ 2021 AlekhDanceAcademy.com  | All rights reserved
+    script
+      include ../static/index.js

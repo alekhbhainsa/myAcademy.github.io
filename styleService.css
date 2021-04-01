@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    justify-content: center;
+    /* margin: 12px 0; */
+    padding-top: 52px;
+    padding-bottom: 12px;
+    color: rgb(204, 42, 109);
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+.container{
+    /* text-align: center;
+    justify-content: center; */
+    padding-top: 45px;
+    padding: 43px;
+    background-color: rgb(155, 238, 234);
+    height: 110vh;
+}
+.container li{
+    padding: 8px 5px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(80, 83, 255);
+}
